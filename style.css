@@ -1,0 +1,27 @@
+.flexbox-item{
+    width: 200px;
+    background-color: brown;
+    margin: 50px;
+}
+
+.flexbox-item-1{
+    height: 100px;
+    flex-grow: 1;
+}
+
+.flexbox-item-2{
+    height: 200px;
+    flex-grow: 1;
+}
+
+.flexbox-item-3{
+    height: 300px;
+    flex-grow: 2;
+}
+
+.flexbox-container{
+    display:flex;
+    background-color: aqua;
+    justify-content: flex-start;
+    align-items: center;
+}
