@@ -1,14 +1,27 @@
 <html>
-   <head>
-    <link rel = "stylesheet" href = "style.css">
-        <title>FlexBox</title>
-    </head>
 
-    <body>
-<div class = "flexbox-container">
-    <div class = "flexbox-item flexbox-item-1"></div>
-    <div class = "flexbox-item flexbox-item-2"></div>
-    <div class = "flexbox-item flexbox-item-3"></div>
-</div>
-    </body>
+<head>
+    
+    <script src="https://www.gstatic.com/firebasejs/8.2.1/firebase-app.js"></script>
+                 <script src="https://www.gstatic.com/firebasejs/8.2.1/firebase-database.js"></script>
+                 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+                 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+                 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+                 <script src = "main.js"></script>
+
+    <title>Checklist</title>
+</head>
+<body><center>
+<h1>Checklist</h1>
+<input id = "in" placeholder="Enter the Item">
+<button class = "btn btn-warning" onclick = "add()">Add</button>
+
+<button class = "btn btn-danger" onclick = "del()">Delete</button>
+
+<div id = "output"></div>
+</center>
+</body>
+
+
+
 </html>
